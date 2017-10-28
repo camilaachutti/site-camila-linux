@@ -1,0 +1,193 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', verdana, arial, sans-serif;
+	font-weight: 300;
+}
+
+
+h1 {
+	color: #545454;
+	font-weight: 600;
+}
+
+h2 {
+	font-family: 'League Script', cursive;
+	color: #8B008B;
+	font-size: 270%;
+	margin: 10px 0;
+	font-weight: 600;
+}
+
+h3 {
+	
+	color:#8B008B;
+	font-size: 150%;
+	margin-bottom: 10px;
+}
+
+a {
+	color: #8B008B;
+}
+
+#titulo h1 {
+	padding: 0;
+	margin-left: 85px;
+	font-family: 'League Script', cursive;
+	font-size: 40;
+}
+
+#header_wrapper {
+	width: 100%;
+	background: url("../images/bgs/header.png") repeat;
+	box-shadow: 0 2px 3px #999;	
+	position: fixed;
+	top: 0;
+}
+
+#header {
+	width: 920px;
+	padding: 10px 20px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#header h1 span {
+	display: block;
+	font-size: 70%;
+	line-height: 80%;
+	color: #8B008B;
+	font-weight: 300;
+}
+
+#navigation {
+	position: absolute;
+	bottom: 20px;
+	right: 0px;
+}
+
+#navigation li {
+	list-style: none;
+	display: inline;
+
+	
+}
+
+#navigation li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #8B008B;
+	padding: 5px 10px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+#navigation li a:hover {
+	background-color: #F7F7F7;
+}
+
+
+section {
+	padding: 60px 0;
+	border-bottom: 1px solid #CCC;
+}
+
+section p { 
+	font-weight: 300;
+	margin: 10px 0;
+	color: #444;
+	width: 920px;
+}
+
+#profile {
+	padding-top: 120px;
+	background: url("../images/bgs/profile.png") repeat;
+}
+
+
+.section_content {
+	width: 750px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+#profile #profile_picture {
+	width: 250px;
+	box-shadow: 0 0 10px gray;
+
+}
+
+#profile ul {
+	float: right;
+	margin: 30px;
+}
+
+#profile ul li {
+	padding: 8px 0 8px 60px;
+	list-style: none;
+	font-size: 100%;
+	margin-top: 10px;
+}
+
+
+#institution { background: url("../images/icons/institution.png") 0 5px no-repeat; }
+#address {
+	background: url("../images/icons/address.png") 0 8px no-repeat;
+	width: 300px;
+}
+#phone {
+	background: url("../images/icons/phone.png") 0 4px no-repeat;
+	width: 210px;
+}
+#fax {
+	background: url("../images/icons/fax.png") 0 6px no-repeat; 
+	width: 130px;
+}
+#email { background: url("../images/icons/email.png") 0 5px no-repeat; }
+#cv { background: url("../images/icons/cv.png") 0 10px no-repeat; }
+
+
+
+#members img {
+	width: 750px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 10px gray;
+}
+
+.member {
+	margin-bottom: 10px;
+}
+
+.member h3 {
+	color: #545454;
+	font-family: 'Open Sans', verdana, arial, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: inline-block;
+	font-size: 100%;
+	margin-bottom: 0px;
+}
+
+.member span {
+	font-style: italic;
+	margin-left: 5px;
+}
+
+.member p {
+	margin: 5px 0;
+}
+
+#mem img.big {
+	width: 440px;
+	float: left;
+	margin-right: 4px;
+}
+
+#mem img.medium {
+	width: 475px;
+}
+#mem img.small {
+	vertical-align: top;
+	width: 235px;
+	margin-bottom: 4px;
+}
